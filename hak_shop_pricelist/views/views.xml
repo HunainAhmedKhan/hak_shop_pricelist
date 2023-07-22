@@ -1,0 +1,11 @@
+<odoo>
+  <data>
+
+    <template id="pricelist_list_inh" inherit_id="website_sale.pricelist_list" name="Pricelists Dropdown">
+      <xpath expr="//div[1]" position="attributes">
+        <attribute name="groups">base.group_user,base.group_portal</attribute>
+      </xpath>
+    </template>
+
+  </data>
+</odoo>
